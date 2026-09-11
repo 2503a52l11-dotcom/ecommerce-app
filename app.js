@@ -1,5 +1,5 @@
 function getWelcomeMessage() {
-    return "Welcome to our store";
+    return "Welcome to E-Commerce Application";
 }
 
 console.log(getWelcomeMessage());
