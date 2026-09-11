@@ -19,3 +19,13 @@ function removeProduct(productId) {
         console.log("Product removed:", productId);
     }
 }
+
+function updateProduct(productId, newName, newPrice) {
+    const product = products.find(product => product.id === productId);
+
+    if (product) {
+        product.name = newName;
+        product.price = newPrice;
+        console.log("Product updated:", product);
+    }
+}
