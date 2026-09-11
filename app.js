@@ -1,5 +1,1 @@
-function getWelcomeMessage() {
-    return "Welcome to E-Commerce Application";
-}
-
-console.log(getWelcomeMessage());
+function getWelcomeMessage() { return "Welcome to our Online E-Commerce Store"; }
