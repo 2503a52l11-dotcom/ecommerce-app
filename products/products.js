@@ -1,12 +1,12 @@
 const products = [];
 
 function addProduct(name, price) {
-    products.push({
+    const product = {
+        id: products.length + 1,
         name: name,
         price: price
-    });
-}
+    };
 
-function removeProduct(name) {
-    console.log("Removing product:", name);
+    products.push(product);
+    console.log("Product added:", product);
 }
